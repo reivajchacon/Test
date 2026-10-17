@@ -1,0 +1,15 @@
+BAZAR SCOUT — sitio demostrativo
+
+Archivos: index.html, styles.css, script.js.
+
+Para usar: descomprime el ZIP y abre index.html en un navegador. Publica la carpeta completa en tu hosting para ponerlo en línea.
+
+Personalización necesaria antes de vender:
+1) En script.js, edita los ocho productos de la constante products: nombres, categorías, precios en CLP e imagen.
+2) Los enlaces postimg.cc que compartiste son páginas de vista, no enlaces de imagen directa. Abre cada uno en Postimages, copia el “Direct link” (i.postimg.cc/...) y pégalo en image del producto. El logo está configurado con el enlace directo facilitado.
+3) Para activar WhatsApp, agrega al inicio de script.js una línea como: window.BAZAR_SCOUT_WHATSAPP='56912345678'; (número con código de país, solo dígitos). Haz lo mismo en el enlace de contacto si lo deseas.
+4) Sustituye los enlaces # de redes sociales por los perfiles oficiales.
+
+El carrito añade, elimina y cambia cantidades, y persiste en el navegador. El checkout arma un pedido con productos, subtotal y modalidad de entrega (domicilio/retiro) para enviar por WhatsApp. No procesa pagos ni almacena órdenes en servidor: requiere configurar WhatsApp y coordinar el pago fuera del sitio.
+
+Fuentes de iconos: Lucide vía CDN; tipografías Google Fonts. Requiere conexión a Internet para cargar esos recursos.
